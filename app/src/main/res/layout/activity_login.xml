@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="393dp"
+        android:layout_height="242dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30sp"
+        app:srcCompat="@drawable/umtlogo" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="30sp"
+        android:width="2sp"
+        android:height="30sp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Your Name"
+        android:inputType="textPersonName"
+        android:shadowColor="#CC0F0F"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="30sp"
+        android:width="2sp"
+        android:height="30sp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="File Name:"
+        android:inputType="textPersonName"
+        android:shadowColor="#CC0F0F"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed" />
+
+</LinearLayout>
